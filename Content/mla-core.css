@@ -1,0 +1,102 @@
+﻿html {
+    height: 100%;
+}
+
+.dropdown-menu {
+    background-color: #000;
+}
+
+.fullscreen {
+    height: 100%;
+    min-height: inherit;
+    width: auto;
+}
+
+.nav .open > a,
+.nav .open > a:hover,
+.nav .open > a:focus {
+    background-color: transparent;
+    border: 0;
+    color: rgb(199, 50, 44);
+}
+
+.nav > li > a:hover {
+    color: rgb(199, 50, 44);
+}
+
+.navbar-brand {
+    padding: 0;
+}
+
+.navbar-brand > img {
+    border: 1px solid #000;
+    height: auto;
+    width: 50%;
+}
+
+.navbar-toggle .icon-bar {
+  background-color: #fff;
+  color: #fff;
+}
+
+.navbar-nav > li > a {
+    color: #fff;
+    font-family: Futura, sans-serif;
+    font-size: 12pt;
+}
+
+.navbar-nav > li > a:hover {
+    background-color: transparent;
+    color: rgb(199, 50, 44);
+}
+
+.panel-primary {
+    border-color: darkgray;
+}
+
+.panel-primary > .panel-heading {
+    color: #fff;
+    background-color: darkgray;
+    border-color: darkgray;
+}
+
+.panel-primary > .panel-heading + .panel-collapse > .panel-body {
+    border-top-color: darkgray;
+}
+
+.panel-primary > .panel-heading .badge {
+    color: darkgray;
+    background-color: #fff;
+}
+
+.panel-primary > .panel-footer + .panel-collapse > .panel-body {
+    border-bottom-color: darkgray;
+}
+
+.table {
+    background-color: transparent;
+	display: table;
+    height: 100%;
+    margin: auto;
+    padding-top: 70px;
+    width: 50%;
+}
+
+.table-cell {
+    background-color: transparent;
+	display: table-cell;
+    height: 100%;
+    vertical-align: top;
+}
+
+.table-cell .align-center {
+    text-align: center;
+}
+
+.table-cell .vertical-align-top {
+    vertical-align: top;
+}
+
+.table-cell .vertical-align-middle {
+    vertical-align: middle;
+}

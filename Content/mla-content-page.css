@@ -1,0 +1,65 @@
+﻿body
+{
+    background: url('/Images/wentworth-rd-945-004.png') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    font-family: Futura, sans-serif;
+    height: 100%;
+}
+
+.caption
+{
+    background-color: darkgray;
+}
+
+.thumbnail > img
+{
+    border: 1px solid #d0d0d0;
+    text-align: center;
+}
+
+.thumbnail > .header
+{
+    background-color: #e5e5e5;
+    padding: 1.5rem;
+    text-align: center;
+}
+
+.thumbnail > .description
+{
+    background-color: #d0d0d0;
+    font-family: Arial;
+    font-size: 9pt;
+    font-weight: normal;
+    height: 100px;
+    overflow: hidden;
+    padding: 1.5rem;
+    text-overflow: ellipsis;
+}
+
+.content
+{
+    color: #000;
+}
+
+#about-panel
+{
+    opacity: 0.85;
+}
+
+#about-panel > .panel-body {
+    font-family: Arial;
+    font-size: 9pt;
+    font-weight: normal;
+}
+
+#content-page-nav-bar {
+    background-color: #000;
+    opacity: 0.85;
+}
+
+#content-page-nav-bar.navbar-fixed-top {
+    top: 0;
+}

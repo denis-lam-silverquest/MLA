@@ -1,0 +1,73 @@
+﻿body.landing-page
+{
+    background: url('/Images/wentworth-rd-945-004.png') no-repeat center center fixed;
+    background-size: cover;
+    -webkit-background-size: cover;
+    -moz-background-size: cover;
+    -o-background-size: cover;
+    font-family: Futura, sans-serif;
+    height: 100%;
+}
+
+#landing-page-nav-bar {
+    background-color: transparent;
+}
+
+#landing-page-nav-bar.navbar-fixed-top {
+    top: 0;
+}
+
+#landing-page-banner {
+    background-color: #505050;
+    height: 120px;
+    opacity: 0.85;
+    overflow: hidden;
+}
+
+#landing-page-banner > .container {
+    display: table;
+    height: inherit;
+    padding: 0;
+    width: 100%;
+}
+
+#landing-page-banner > .container > .animated-text-row {
+    display: table-row;
+}
+
+#landing-page-banner > .container > .animated-text-row > .animated-text-cell {
+    color: #fff;
+    display: table-cell;
+    font-family: Futura, sans-serif;
+    font-size: 34pt;
+    font-stretch: condensed;
+    line-height: 3rem;
+    padding: 0 3rem;
+    text-align: right;
+}
+
+#landing-page-banner > .container > .button-row {
+    display: table-row;
+}
+
+#landing-page-banner > .container > .button-row > .button-cell {
+    display: table-cell;
+    padding: 0 3rem;
+    text-align: right;
+    vertical-align: bottom;
+    width: auto;
+}
+
+#landing-page-banner > .container > .button-row > .button-cell > .button-default {
+    background-color: rgb(199, 50, 44);
+    border: 1px solid rgb(136, 20, 15);
+    color: #fff;
+    font-family: Futura, sans-serif;
+    font-size: 10pt;
+    padding: 0.5rem 1.5rem;
+}
+
+#landing-page-banner > .container > .button-row > .button-cell > .button-default:hover {
+    color: rgb(136, 20, 15);
+    text-decoration: none;
+}

@@ -1,0 +1,77 @@
+﻿@{
+    Page.Title = "MLA Interior Architecture & Design";
+}
+
+<!DOCTYPE html>
+<html>
+<head>
+    <!-- These meta tags come first. -->
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <title>@Page.Title</title>
+
+    <link href="~/Content/bootstrap.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/animate.min.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/morphext.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/mla-core.css" rel="stylesheet" type="text/css" />
+    <link href="~/Content/mla-landing-page.css" rel="stylesheet" type="text/css" />
+
+    <script src="~/Scripts/jquery-3.1.1.min.js"></script>
+    <script src="~/Scripts/morphext.min.js"></script>
+</head>
+<body class="landing-page">
+    <nav id="landing-page-nav-bar" class="navbar navbar-fixed-top" role="navigation">
+        <div class="container-fluid">
+            <!-- Brand and toggle get grouped for better mobile display -->
+            <div class="navbar-header">
+                <a class="navbar-brand" href="~/Landing.cshtml"><img src="~/Images/mla-logo-black.jpg" /></a>
+                <button type="button" class="navbar-toggle collapsed" style="color: #fff;" data-toggle="collapse" data-target="#navbar-collapse-menu">
+                    <span class="sr-only">Toggle navigation</span>
+                    <span class="glyphicon glyphicon-menu-hamburger"></span>
+                </button>
+            </div>
+
+            <!-- Collect the nav links, forms, and other content for toggling -->
+            <div id="navbar-collapse-menu" class="collapse navbar-collapse pull-right">
+                <ul class="nav navbar-nav">
+                    <li>
+                        <a href="~/About.cshtml">About</a>
+                    </li>
+                    <li>
+                        <a href="~/Projects.cshtml">Projects</a>
+                    </li>
+                    <li>
+                        <a href="~/Contact.cshtml">Contact</a>
+                    </li>
+                    <li>
+                        <a href="~/Media.cshtml">Media</a>
+                    </li>
+                    <li>
+                        <a href="~/Blog.cshtml">Blog</a>
+                    </li>
+                </ul>
+            </div><!-- /.collapse navbar-collapse pull-right -->
+        </div><!-- /.container-fluid -->
+    </nav>
+
+    <nav id="landing-page-banner" class="navbar navbar-fixed-top">
+        <div class="container">
+            <div class="animated-text-row">
+                <div class="animated-text-cell">
+                    SHAPING THE SPACES THAT SHAPE HUMAN BEHAVIOUR,
+                    BESPOKE DESIGNS THAT WILL STAND THE TEST OF TIME
+                </div>
+            </div>
+            <div class="button-row">
+                <div class="button-cell">
+                    <a href="~/Projects.cshtml" class="button-default">View Projects</a>
+                </div>
+            </div>
+        </div><!-- /.container -->
+    </nav>
+
+    <script type="text/javascript" src="~/Scripts/LandingPage.js"></script>
+</body>
+</html>
